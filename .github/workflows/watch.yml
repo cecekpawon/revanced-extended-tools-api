@@ -1,0 +1,89 @@
+name: Update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  run_update:
+    name: Check for updates
+    runs-on: ubuntu-22.04
+    env:
+      toolcheckpath: 'tools/tools.json'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Scrape
+        id: scrape
+        run: |
+          gtxt=
+
+          declare -A grepos=(
+            # - [0]owner [1]repo [2]branch [3]pattern
+            #[manager]=
+            #[patcher]=
+            [builder_linux]='inotia00 rvx-builder revanced-extended linux'
+            [builder_macos]='inotia00 rvx-builder revanced-extended macos'
+            [builder_win]='inotia00 rvx-builder revanced-extended exe'
+            [cli]='inotia00 revanced-cli bruh jar'
+            [integrations]='inotia00 revanced-integrations revanced-extended apk'
+            [microg]='inotia00 VancedMicroG master microg.apk'
+            [patches_jar]='inotia00 revanced-patches revanced-extended jar'
+            [patches_json]='inotia00 revanced-patches revanced-extended json'
+            )
+          
+          getextd() {
+            local label=$1
+            shift
+            local arr=($@)
+            local owner=${arr[0]} repo=${arr[1]} branch=${arr[2]} pattern=${arr[3]}
+          
+            local json=$(curl -s https://api.github.com/repos/$owner/$repo/releases/latest)
+            local obj=$(echo "$json" | jq ".assets[] | select(.name | test(\"$pattern$\"))")
+          
+            local browser_download_url=$(echo "$obj" | jq -r '.browser_download_url')
+            local content_type=$(echo "$obj" | jq -r '.content_type')
+            local name=$(echo "$obj" | jq -r '.name')
+            local repository=$owner/$repo
+            local size=$(echo "$obj" | jq -r '.size')
+            local timestamp=$(echo "$obj" | jq -r '.updated_at')
+            local version=$(echo "$json" | jq -r '.tag_name')
+          
+            gtxt="$gtxt {\
+            \"branch\": \"$branch\",\
+            \"browser_download_url\": \"$browser_download_url\",\
+            \"content_type\": \"$content_type\",\
+            \"label\": \"$label\",\
+            \"name\": \"$name\",\
+            \"repository\": \"$repository\",\
+            \"size\": \"$size\",\
+            \"timestamp\": \"$timestamp\",\
+            \"version\": \"$version\"\
+            },"
+          }
+          
+          keys=($(echo ${!grepos[@]} | tr ' ' $'\n' | sort))
+          for key in ${keys[@]}; do
+            getextd $key ${grepos[$key]}
+          done
+          
+          echo "{ \"tools\":[\
+            ${gtxt:0:-1}\
+            ]}" | jq -c > ${{ env.toolcheckpath }}
+      - name: Compare
+        id: compare
+        run: echo is_modified=$([ -z "`git status --porcelain`" ] && echo "no" || echo "yes") >> $GITHUB_OUTPUT
+      - name: Import GPG key
+        if: steps.compare.outputs.is_modified == 'yes'
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+      - name: Commit the updates
+        if: steps.compare.outputs.is_modified == 'yes'
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: '${{ env.toolcheckpath }}'
+          message: automated update
+          push: true

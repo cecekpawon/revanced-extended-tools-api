@@ -2,13 +2,13 @@ name: Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
 jobs:
   run_update:
     name: Check for updates
     runs-on: ubuntu-22.04
     env:
-      toolcheckpath: 'tools.json'
+      toolcheckpath: 'v0/tools.json'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -87,3 +87,7 @@ jobs:
           add: '${{ env.toolcheckpath }}'
           message: automated update
           push: true
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: v0

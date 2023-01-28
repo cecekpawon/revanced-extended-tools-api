@@ -30,16 +30,16 @@ jobs:
             [patches_jar]='inotia00 revanced-patches revanced-extended jar'
             [patches_json]='inotia00 revanced-patches revanced-extended json'
             )
-          
+
           getextd() {
             local label=$1
             shift
             local arr=($@)
             local owner=${arr[0]} repo=${arr[1]} branch=${arr[2]} pattern=${arr[3]}
-          
+
             local json=$(curl -s https://api.github.com/repos/$owner/$repo/releases/latest)
             local obj=$(echo "$json" | jq ".assets[] | select(.name | test(\"$pattern$\"))")
-          
+
             local browser_download_url=$(echo "$obj" | jq -r '.browser_download_url')
             local content_type=$(echo "$obj" | jq -r '.content_type')
             local name=$(echo "$obj" | jq -r '.name')
@@ -47,7 +47,7 @@ jobs:
             local size=$(echo "$obj" | jq -r '.size')
             local timestamp=$(echo "$obj" | jq -r '.updated_at')
             local version=$(echo "$json" | jq -r '.tag_name')
-          
+
             gtxt="$gtxt {\
             \"branch\": \"$branch\",\
             \"browser_download_url\": \"$browser_download_url\",\
@@ -60,12 +60,12 @@ jobs:
             \"version\": \"$version\"\
             },"
           }
-          
+
           keys=($(echo ${!grepos[@]} | tr ' ' $'\n' | sort))
           for key in ${keys[@]}; do
             getextd $key ${grepos[$key]}
           done
-          
+
           echo "{ \"tools\":[\
             ${gtxt:0:-1}\
             ]}" | jq -c > ${{ env.toolcheckpath }}
@@ -88,6 +88,7 @@ jobs:
           message: automated update
           push: true
       - name: Deploy
+        if: steps.compare.outputs.is_modified == 'yes'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: v0

@@ -94,4 +94,4 @@ jobs:
         if: steps.compare.outputs.is_modified == 'yes'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: '${{ env.dirrestpath }}
+          folder: ${{ env.dirrestpath }}

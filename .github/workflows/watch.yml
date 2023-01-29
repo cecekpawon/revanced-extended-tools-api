@@ -1,6 +1,7 @@
 name: Update
 on:
   repository_dispatch:
+    types: manupdate
   workflow_dispatch:
   schedule:
     - cron: '0 * * * *'

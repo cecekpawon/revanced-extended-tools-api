@@ -8,7 +8,8 @@ jobs:
     name: Check for updates
     runs-on: ubuntu-22.04
     env:
-      toolcheckpath: 'v0/tools.json'
+      dirrestpath: 'rest'
+      filerestpath: 'tools.json'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -69,7 +70,7 @@ jobs:
           if [[ "$(echo $gtxt)" == *".apk"* ]]; then
             echo "{ \"tools\":[\
               ${gtxt:0:-1}\
-              ]}" | jq -c > ${{ env.toolcheckpath }}
+              ]}" | jq > ${{ env.dirrestpath }}/${{ env.filerestpath }}
           fi
       - name: Compare
         id: compare
@@ -86,11 +87,11 @@ jobs:
         if: steps.compare.outputs.is_modified == 'yes'
         uses: EndBug/add-and-commit@v9
         with:
-          add: '${{ env.toolcheckpath }}'
+          add: '${{ env.dirrestpath }}/${{ env.filerestpath }}'
           message: automated update
           push: true
       - name: Deploy
         if: steps.compare.outputs.is_modified == 'yes'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: v0
+          folder: '${{ env.dirrestpath }}

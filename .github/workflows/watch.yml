@@ -95,3 +95,11 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: ${{ env.dirrestpath }}
+      - name: Delete workflow runs
+        if: steps.compare.outputs.is_modified == 'yes'
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 2

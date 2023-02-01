@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.158.4/revanced-patches-2.158.4.jar",
-      "content_type": "application/jar",
+      "browser_download_url": "",
+      "content_type": "",
       "label": "patches_jar",
-      "name": "revanced-patches-2.158.4.jar",
+      "name": "",
       "repository": "inotia00/revanced-patches",
-      "size": "3118234",
-      "timestamp": "2023-01-31T07:17:04Z",
-      "version": "v2.158.4"
+      "size": "",
+      "timestamp": "",
+      "version": "null"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.158.4/patches.json",
-      "content_type": "application/json",
+      "browser_download_url": "",
+      "content_type": "",
       "label": "patches_json",
-      "name": "patches.json",
+      "name": "",
       "repository": "inotia00/revanced-patches",
-      "size": "30044",
-      "timestamp": "2023-01-31T07:17:04Z",
-      "version": "v2.158.4"
+      "size": "",
+      "timestamp": "",
+      "version": "null"
     }
   ]
 }

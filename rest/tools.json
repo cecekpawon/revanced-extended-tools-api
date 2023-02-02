@@ -57,36 +57,36 @@
     },
     {
       "branch": "master",
-      "browser_download_url": "",
-      "content_type": "",
+      "browser_download_url": "https://github.com/inotia00/VancedMicroG/releases/download/v0.2.26.225014/microg.apk",
+      "content_type": "application/vnd.android.package-archive",
       "label": "microg",
-      "name": "",
+      "name": "microg.apk",
       "repository": "inotia00/VancedMicroG",
-      "size": "",
-      "timestamp": "",
-      "version": "null"
+      "size": "11299761",
+      "timestamp": "2023-01-08T09:50:38Z",
+      "version": "v0.2.26.225014"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "",
-      "content_type": "",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.158.4/revanced-patches-2.158.4.jar",
+      "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "",
+      "name": "revanced-patches-2.158.4.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "",
-      "timestamp": "",
-      "version": "null"
+      "size": "3118234",
+      "timestamp": "2023-01-31T07:17:04Z",
+      "version": "v2.158.4"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "",
-      "content_type": "",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.158.4/patches.json",
+      "content_type": "application/json",
       "label": "patches_json",
-      "name": "",
+      "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "",
-      "timestamp": "",
-      "version": "null"
+      "size": "30044",
+      "timestamp": "2023-01-31T07:17:04Z",
+      "version": "v2.158.4"
     }
   ]
 }

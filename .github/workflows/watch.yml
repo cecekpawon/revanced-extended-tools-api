@@ -75,6 +75,8 @@ jobs:
             fi
           done
 
+          echo "Scrape done with result: $result"
+
           if [[ "$result" == "1" ]]; then
             echo "{ \"tools\":[\
               ${gtxt:0:-1}\

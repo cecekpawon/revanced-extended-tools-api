@@ -64,7 +64,7 @@ jobs:
             },"
           }
 
-          local result=1
+          result=1
 
           keys=($(echo ${!grepos[@]} | tr ' ' $'\n' | sort))
           for key in ${keys[@]}; do

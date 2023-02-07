@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.95.1/app-release-unsigned.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.95.4/revanced-integrations-0.95.4.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "app-release-unsigned.apk",
+      "name": "revanced-integrations-0.95.4.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "122405",
-      "timestamp": "2023-02-05T03:51:37Z",
-      "version": "v0.95.1"
+      "size": "123153",
+      "timestamp": "2023-02-06T21:44:51Z",
+      "version": "v0.95.4"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.159.1/revanced-patches-2.159.1.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.159.4/revanced-patches-2.159.4.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.159.1.jar",
+      "name": "revanced-patches-2.159.4.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "3136878",
-      "timestamp": "2023-02-05T03:54:01Z",
-      "version": "v2.159.1"
+      "size": "3142244",
+      "timestamp": "2023-02-06T21:46:05Z",
+      "version": "v2.159.4"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.159.1/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.159.4/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "30528",
-      "timestamp": "2023-02-05T03:54:02Z",
-      "version": "v2.159.1"
+      "size": "31254",
+      "timestamp": "2023-02-06T21:46:06Z",
+      "version": "v2.159.4"
     }
   ]
 }

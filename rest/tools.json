@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.97.1/revanced-integrations-0.97.1.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.97.6/revanced-integrations-0.97.6.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-0.97.1.apk",
+      "name": "revanced-integrations-0.97.6.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "127352",
-      "timestamp": "2023-02-18T05:04:38Z",
-      "version": "v0.97.1"
+      "size": "127896",
+      "timestamp": "2023-02-21T15:30:23Z",
+      "version": "v0.97.6"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.162.1/revanced-patches-2.162.1.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.162.7/revanced-patches-2.162.7.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.162.1.jar",
+      "name": "revanced-patches-2.162.7.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "3129537",
-      "timestamp": "2023-02-18T05:03:40Z",
-      "version": "v2.162.1"
+      "size": "3134342",
+      "timestamp": "2023-02-21T16:21:23Z",
+      "version": "v2.162.7"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.162.1/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.162.7/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "26493",
-      "timestamp": "2023-02-18T05:03:43Z",
-      "version": "v2.162.1"
+      "size": "26281",
+      "timestamp": "2023-02-21T16:21:20Z",
+      "version": "v2.162.7"
     }
   ]
 }

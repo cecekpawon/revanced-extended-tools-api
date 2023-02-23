@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.98.5/revanced-integrations-0.98.5.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.98.7/revanced-integrations-0.98.7.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-0.98.5.apk",
+      "name": "revanced-integrations-0.98.7.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "127760",
-      "timestamp": "2023-02-23T11:42:03Z",
-      "version": "v0.98.5"
+      "size": "127868",
+      "timestamp": "2023-02-23T16:19:57Z",
+      "version": "v0.98.7"
     },
     {
       "branch": "master",

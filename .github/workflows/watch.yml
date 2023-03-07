@@ -27,7 +27,7 @@ jobs:
             [builder_linux]='inotia00 rvx-builder revanced-extended linux'
             [builder_macos]='inotia00 rvx-builder revanced-extended macos'
             [builder_win]='inotia00 rvx-builder revanced-extended exe'
-            [cli]='inotia00 revanced-cli bruh jar'
+            [cli]='inotia00 revanced-cli riplib jar'
             [integrations]='inotia00 revanced-integrations revanced-extended apk'
             [microg]='inotia00 VancedMicroG master microg.apk'
             [patches_jar]='inotia00 revanced-patches revanced-extended jar'

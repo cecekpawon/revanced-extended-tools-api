@@ -34,7 +34,7 @@
       "version": "v3.8.0"
     },
     {
-      "branch": "bruh",
+      "branch": "riplib",
       "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v2.21.0/revanced-cli-2.21.0-all.jar",
       "content_type": "application/jar",
       "label": "cli",

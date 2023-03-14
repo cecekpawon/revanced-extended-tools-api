@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.99.24/revanced-integrations-0.99.24.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.99.30/revanced-integrations-0.99.30.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-0.99.24.apk",
+      "name": "revanced-integrations-0.99.30.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "129885",
-      "timestamp": "2023-03-11T17:40:24Z",
-      "version": "v0.99.24"
+      "size": "130353",
+      "timestamp": "2023-03-14T01:38:15Z",
+      "version": "v0.99.30"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.164.24/revanced-patches-2.164.24.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.164.30/revanced-patches-2.164.30.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.164.24.jar",
+      "name": "revanced-patches-2.164.30.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "3585829",
-      "timestamp": "2023-03-11T17:40:43Z",
-      "version": "v2.164.24"
+      "size": "3606538",
+      "timestamp": "2023-03-14T01:46:01Z",
+      "version": "v2.164.30"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.164.24/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.164.30/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "32523",
-      "timestamp": "2023-03-11T17:40:43Z",
-      "version": "v2.164.24"
+      "size": "32607",
+      "timestamp": "2023-03-14T01:46:01Z",
+      "version": "v2.164.30"
     }
   ]
 }

@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.101.18/revanced-integrations-0.101.18.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.101.21/revanced-integrations-0.101.21.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-0.101.18.apk",
+      "name": "revanced-integrations-0.101.21.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "133441",
-      "timestamp": "2023-04-06T11:18:49Z",
-      "version": "v0.101.18"
+      "size": "133885",
+      "timestamp": "2023-04-07T23:07:03Z",
+      "version": "v0.101.21"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.168.18/revanced-patches-2.168.18.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.168.21/revanced-patches-2.168.21.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.168.18.jar",
+      "name": "revanced-patches-2.168.21.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "3743896",
-      "timestamp": "2023-04-06T11:19:12Z",
-      "version": "v2.168.18"
+      "size": "3795731",
+      "timestamp": "2023-04-07T23:08:03Z",
+      "version": "v2.168.21"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.168.18/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.168.21/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "39253",
-      "timestamp": "2023-04-06T11:19:09Z",
-      "version": "v2.168.18"
+      "size": "39661",
+      "timestamp": "2023-04-07T23:08:03Z",
+      "version": "v2.168.21"
     }
   ]
 }

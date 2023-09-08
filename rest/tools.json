@@ -2,58 +2,58 @@
   "tools": [
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.8/rvx-builder-linux",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.12/rvx-builder-linux",
       "content_type": "application/octet-stream",
       "label": "builder_linux",
       "name": "rvx-builder-linux",
       "repository": "inotia00/rvx-builder",
-      "size": "51397775",
-      "timestamp": "2023-08-04T03:34:41Z",
-      "version": "v3.9.8"
+      "size": "51396426",
+      "timestamp": "2023-09-07T20:18:05Z",
+      "version": "v3.9.12"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.8/rvx-builder-macos",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.12/rvx-builder-macos",
       "content_type": "application/octet-stream",
       "label": "builder_macos",
       "name": "rvx-builder-macos",
       "repository": "inotia00/rvx-builder",
-      "size": "56384668",
-      "timestamp": "2023-08-04T03:33:46Z",
-      "version": "v3.9.8"
+      "size": "56383382",
+      "timestamp": "2023-09-07T20:16:38Z",
+      "version": "v3.9.12"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.8/rvx-builder-win.exe",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.12/rvx-builder-win.exe",
       "content_type": "application/x-msdownload",
       "label": "builder_win",
       "name": "rvx-builder-win.exe",
       "repository": "inotia00/rvx-builder",
-      "size": "42771184",
-      "timestamp": "2023-08-04T03:34:12Z",
-      "version": "v3.9.8"
+      "size": "42769860",
+      "timestamp": "2023-09-07T20:17:15Z",
+      "version": "v3.9.12"
     },
     {
       "branch": "riplib",
-      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v2.22.2/revanced-cli-2.22.2-all.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v3.1.2/revanced-cli-3.1.2-all.jar",
       "content_type": "application/jar",
       "label": "cli",
-      "name": "revanced-cli-2.22.2-all.jar",
+      "name": "revanced-cli-3.1.2-all.jar",
       "repository": "inotia00/revanced-cli",
-      "size": "45017416",
-      "timestamp": "2023-07-24T07:30:55Z",
-      "version": "v2.22.2"
+      "size": "46236819",
+      "timestamp": "2023-09-05T08:53:13Z",
+      "version": "v3.1.2"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.115.1/revanced-integrations-0.115.1.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.117.1/revanced-integrations-0.117.1.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-0.115.1.apk",
+      "name": "revanced-integrations-0.117.1.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "179180",
-      "timestamp": "2023-08-05T13:58:17Z",
-      "version": "v0.115.1"
+      "size": "191632",
+      "timestamp": "2023-09-05T07:23:09Z",
+      "version": "v0.117.1"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.187.1/revanced-patches-2.187.1.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.190.1/revanced-patches-2.190.1.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.187.1.jar",
+      "name": "revanced-patches-2.190.1.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "3668218",
-      "timestamp": "2023-08-05T01:03:31Z",
-      "version": "v2.187.1"
+      "size": "3778407",
+      "timestamp": "2023-09-05T07:22:58Z",
+      "version": "v2.190.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.187.1/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.190.1/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "52596",
-      "timestamp": "2023-08-05T01:03:23Z",
-      "version": "v2.187.1"
+      "size": "55629",
+      "timestamp": "2023-09-05T07:22:48Z",
+      "version": "v2.190.1"
     }
   ]
 }

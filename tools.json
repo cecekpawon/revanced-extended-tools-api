@@ -35,14 +35,14 @@
     },
     {
       "branch": "riplib",
-      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v3.1.2/revanced-cli-3.1.2-all.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v3.1.4/revanced-cli-3.1.4-all.jar",
       "content_type": "application/jar",
       "label": "cli",
-      "name": "revanced-cli-3.1.2-all.jar",
+      "name": "revanced-cli-3.1.4-all.jar",
       "repository": "inotia00/revanced-cli",
-      "size": "46236819",
-      "timestamp": "2023-09-05T08:53:13Z",
-      "version": "v3.1.2"
+      "size": "46234669",
+      "timestamp": "2023-10-02T11:29:56Z",
+      "version": "v3.1.4"
     },
     {
       "branch": "revanced-extended",

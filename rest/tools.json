@@ -2,36 +2,36 @@
   "tools": [
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.12/rvx-builder-linux",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.15/rvx-builder-linux",
       "content_type": "application/octet-stream",
       "label": "builder_linux",
       "name": "rvx-builder-linux",
       "repository": "inotia00/rvx-builder",
-      "size": "51396426",
-      "timestamp": "2023-09-07T20:18:05Z",
-      "version": "v3.9.12"
+      "size": "51485456",
+      "timestamp": "2023-10-01T18:34:17Z",
+      "version": "v3.9.15"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.12/rvx-builder-macos",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.15/rvx-builder-macos",
       "content_type": "application/octet-stream",
       "label": "builder_macos",
       "name": "rvx-builder-macos",
       "repository": "inotia00/rvx-builder",
-      "size": "56383382",
-      "timestamp": "2023-09-07T20:16:38Z",
-      "version": "v3.9.12"
+      "size": "56472426",
+      "timestamp": "2023-10-01T18:33:32Z",
+      "version": "v3.9.15"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.12/rvx-builder-win.exe",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.9.15/rvx-builder-win.exe",
       "content_type": "application/x-msdownload",
       "label": "builder_win",
       "name": "rvx-builder-win.exe",
       "repository": "inotia00/rvx-builder",
-      "size": "42769860",
-      "timestamp": "2023-09-07T20:17:15Z",
-      "version": "v3.9.12"
+      "size": "42858937",
+      "timestamp": "2023-10-01T18:33:53Z",
+      "version": "v3.9.15"
     },
     {
       "branch": "riplib",

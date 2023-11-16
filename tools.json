@@ -73,8 +73,8 @@
       "label": "patches_jar",
       "name": "revanced-patches-2.196.4.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "4155420",
-      "timestamp": "2023-11-16T12:00:15Z",
+      "size": "4155704",
+      "timestamp": "2023-11-16T12:23:20Z",
       "version": "v2.196.4"
     },
     {
@@ -84,8 +84,8 @@
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "67247",
-      "timestamp": "2023-11-16T12:00:15Z",
+      "size": "67258",
+      "timestamp": "2023-11-16T12:23:21Z",
       "version": "v2.196.4"
     }
   ]

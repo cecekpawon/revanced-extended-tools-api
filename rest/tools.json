@@ -35,25 +35,25 @@
     },
     {
       "branch": "riplib",
-      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v4.2.1/revanced-cli-4.2.1-all.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v4.3.1/revanced-cli-4.3.1-all.jar",
       "content_type": "application/jar",
       "label": "cli",
-      "name": "revanced-cli-4.2.1-all.jar",
+      "name": "revanced-cli-4.3.1-all.jar",
       "repository": "inotia00/revanced-cli",
-      "size": "53471870",
-      "timestamp": "2023-11-26T14:16:25Z",
-      "version": "v4.2.1"
+      "size": "53484682",
+      "timestamp": "2023-12-01T18:34:36Z",
+      "version": "v4.3.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.124.1/revanced-integrations-0.124.1.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.124.7/revanced-integrations-0.124.7.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-0.124.1.apk",
+      "name": "revanced-integrations-0.124.7.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "267872",
-      "timestamp": "2023-11-28T07:51:06Z",
-      "version": "v0.124.1"
+      "size": "268800",
+      "timestamp": "2023-12-01T19:08:54Z",
+      "version": "v0.124.7"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.201.1/revanced-patches-2.201.1.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.201.7/revanced-patches-2.201.7.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.201.1.jar",
+      "name": "revanced-patches-2.201.7.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "4178027",
-      "timestamp": "2023-11-28T07:51:29Z",
-      "version": "v2.201.1"
+      "size": "4179543",
+      "timestamp": "2023-12-01T19:10:16Z",
+      "version": "v2.201.7"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.201.1/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.201.7/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "67687",
-      "timestamp": "2023-11-28T07:51:29Z",
-      "version": "v2.201.1"
+      "size": "66425",
+      "timestamp": "2023-12-01T19:10:16Z",
+      "version": "v2.201.7"
     }
   ]
 }

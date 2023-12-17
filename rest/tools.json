@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.128.1/revanced-integrations-0.128.1.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v0.129.1/revanced-integrations-0.129.1.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-0.128.1.apk",
+      "name": "revanced-integrations-0.129.1.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "276464",
-      "timestamp": "2023-12-13T18:30:08Z",
-      "version": "v0.128.1"
+      "size": "276732",
+      "timestamp": "2023-12-17T15:35:43Z",
+      "version": "v0.129.1"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.205.1/revanced-patches-2.205.1.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.206.1/revanced-patches-2.206.1.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.205.1.jar",
+      "name": "revanced-patches-2.206.1.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "4126576",
-      "timestamp": "2023-12-13T18:30:10Z",
-      "version": "v2.205.1"
+      "size": "4140290",
+      "timestamp": "2023-12-17T14:23:54Z",
+      "version": "v2.206.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.205.1/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.206.1/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "66872",
-      "timestamp": "2023-12-13T18:30:10Z",
-      "version": "v2.205.1"
+      "size": "67331",
+      "timestamp": "2023-12-17T14:23:54Z",
+      "version": "v2.206.1"
     }
   ]
 }

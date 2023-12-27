@@ -57,36 +57,36 @@
     },
     {
       "branch": "master",
-      "browser_download_url": "https://github.com/inotia00/VancedMicroG/releases/download/v0.2.27.230755/microg.apk",
+      "browser_download_url": "https://github.com/inotia00/VancedMicroG/releases/download/v0.3.0.234914/microg.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "microg",
       "name": "microg.apk",
       "repository": "inotia00/VancedMicroG",
-      "size": "11424221",
-      "timestamp": "2023-03-06T02:06:31Z",
-      "version": "v0.2.27.230755"
+      "size": "6548682",
+      "timestamp": "2023-12-26T21:57:51Z",
+      "version": "v0.3.0.234914"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.207.1/revanced-patches-2.207.1.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.208.1/revanced-patches-2.208.1.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-2.207.1.jar",
+      "name": "revanced-patches-2.208.1.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "4152666",
-      "timestamp": "2023-12-23T14:59:23Z",
-      "version": "v2.207.1"
+      "size": "4153302",
+      "timestamp": "2023-12-26T22:28:57Z",
+      "version": "v2.208.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.207.1/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v2.208.1/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "67781",
-      "timestamp": "2023-12-23T14:59:24Z",
-      "version": "v2.207.1"
+      "size": "67748",
+      "timestamp": "2023-12-26T22:28:53Z",
+      "version": "v2.208.1"
     }
   ]
 }

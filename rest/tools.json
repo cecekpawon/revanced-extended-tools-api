@@ -34,7 +34,7 @@
       "version": "v3.12.1"
     },
     {
-      "branch": "riplib",
+      "branch": "nain",
       "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v4.6.1/revanced-cli-4.6.1-all.jar",
       "content_type": "application/jar",
       "label": "cli",

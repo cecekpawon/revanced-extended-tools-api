@@ -2,36 +2,36 @@
   "tools": [
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.12.1/rvx-builder-linux",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.14.1/rvx-builder-linux",
       "content_type": "application/octet-stream",
       "label": "builder_linux",
       "name": "rvx-builder-linux",
       "repository": "inotia00/rvx-builder",
-      "size": "53746169",
-      "timestamp": "2024-03-24T18:18:25Z",
-      "version": "v3.12.1"
+      "size": "53753156",
+      "timestamp": "2024-07-05T07:03:36Z",
+      "version": "v3.14.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.12.1/rvx-builder-macos",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.14.1/rvx-builder-macos",
       "content_type": "application/octet-stream",
       "label": "builder_macos",
       "name": "rvx-builder-macos",
       "repository": "inotia00/rvx-builder",
-      "size": "58733093",
-      "timestamp": "2024-03-24T18:21:19Z",
-      "version": "v3.12.1"
+      "size": "58740100",
+      "timestamp": "2024-07-05T07:04:00Z",
+      "version": "v3.14.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.12.1/rvx-builder-win.exe",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.14.1/rvx-builder-win.exe",
       "content_type": "application/x-msdownload",
       "label": "builder_win",
       "name": "rvx-builder-win.exe",
       "repository": "inotia00/rvx-builder",
-      "size": "45119707",
-      "timestamp": "2024-03-24T18:23:10Z",
-      "version": "v3.12.1"
+      "size": "45126721",
+      "timestamp": "2024-07-05T07:04:40Z",
+      "version": "v3.14.1"
     },
     {
       "branch": "nain",
@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v1.10.2/revanced-integrations-1.10.2.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v1.11.1/revanced-integrations-1.11.1.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-1.10.2.apk",
+      "name": "revanced-integrations-1.11.1.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "324668",
-      "timestamp": "2024-06-23T11:50:38Z",
-      "version": "v1.10.2"
+      "size": "329664",
+      "timestamp": "2024-07-05T06:43:51Z",
+      "version": "v1.11.1"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.9.2/revanced-patches-4.9.2.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.10.1/revanced-patches-4.10.1.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-4.9.2.jar",
+      "name": "revanced-patches-4.10.1.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "6921433",
-      "timestamp": "2024-06-23T11:51:11Z",
-      "version": "v4.9.2"
+      "size": "7193965",
+      "timestamp": "2024-07-05T06:44:42Z",
+      "version": "v4.10.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.9.2/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.10.1/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "48729",
-      "timestamp": "2024-06-23T11:51:12Z",
-      "version": "v4.9.2"
+      "size": "46641",
+      "timestamp": "2024-07-05T06:44:36Z",
+      "version": "v4.10.1"
     }
   ]
 }

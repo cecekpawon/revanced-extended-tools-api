@@ -2,47 +2,47 @@
   "tools": [
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.15.1/rvx-builder-linux",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.16.1/rvx-builder-linux",
       "content_type": "application/octet-stream",
       "label": "builder_linux",
       "name": "rvx-builder-linux",
       "repository": "inotia00/rvx-builder",
-      "size": "53755247",
-      "timestamp": "2024-08-04T02:25:50Z",
-      "version": "v3.15.1"
+      "size": "53758689",
+      "timestamp": "2024-10-04T11:05:22Z",
+      "version": "v3.16.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.15.1/rvx-builder-macos",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.16.1/rvx-builder-macos",
       "content_type": "application/octet-stream",
       "label": "builder_macos",
       "name": "rvx-builder-macos",
       "repository": "inotia00/rvx-builder",
-      "size": "58742219",
-      "timestamp": "2024-08-04T02:25:57Z",
-      "version": "v3.15.1"
+      "size": "58745621",
+      "timestamp": "2024-10-04T11:06:02Z",
+      "version": "v3.16.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.15.1/rvx-builder-win.exe",
+      "browser_download_url": "https://github.com/inotia00/rvx-builder/releases/download/v3.16.1/rvx-builder-win.exe",
       "content_type": "application/x-msdownload",
       "label": "builder_win",
       "name": "rvx-builder-win.exe",
       "repository": "inotia00/rvx-builder",
-      "size": "45128834",
-      "timestamp": "2024-08-04T02:25:43Z",
-      "version": "v3.15.1"
+      "size": "45132292",
+      "timestamp": "2024-10-04T11:06:25Z",
+      "version": "v3.16.1"
     },
     {
       "branch": "nain",
-      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v4.6.1/revanced-cli-4.6.1-all.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-cli/releases/download/v4.6.2/revanced-cli-4.6.2-all.jar",
       "content_type": "application/jar",
       "label": "cli",
-      "name": "revanced-cli-4.6.1-all.jar",
+      "name": "revanced-cli-4.6.2-all.jar",
       "repository": "inotia00/revanced-cli",
-      "size": "54340669",
-      "timestamp": "2024-05-08T17:58:52Z",
-      "version": "v4.6.1"
+      "size": "54182492",
+      "timestamp": "2024-10-04T10:42:55Z",
+      "version": "v4.6.2"
     },
     {
       "branch": "revanced-extended",

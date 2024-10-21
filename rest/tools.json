@@ -46,14 +46,14 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v1.14.2/revanced-integrations-1.14.2.apk",
+      "browser_download_url": "https://github.com/inotia00/revanced-integrations/releases/download/v1.15.1/revanced-integrations-1.15.1.apk",
       "content_type": "application/vnd.android.package-archive",
       "label": "integrations",
-      "name": "revanced-integrations-1.14.2.apk",
+      "name": "revanced-integrations-1.15.1.apk",
       "repository": "inotia00/revanced-integrations",
-      "size": "339564",
-      "timestamp": "2024-10-12T17:33:04Z",
-      "version": "v1.14.2"
+      "size": "353468",
+      "timestamp": "2024-10-21T11:30:55Z",
+      "version": "v1.15.1"
     },
     {
       "branch": "master",
@@ -68,25 +68,25 @@
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.14.2/revanced-patches-4.14.2.jar",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.15.1/revanced-patches-4.15.1.jar",
       "content_type": "application/jar",
       "label": "patches_jar",
-      "name": "revanced-patches-4.14.2.jar",
+      "name": "revanced-patches-4.15.1.jar",
       "repository": "inotia00/revanced-patches",
-      "size": "8005666",
-      "timestamp": "2024-10-12T17:34:23Z",
-      "version": "v4.14.2"
+      "size": "8072201",
+      "timestamp": "2024-10-21T11:31:37Z",
+      "version": "v4.15.1"
     },
     {
       "branch": "revanced-extended",
-      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.14.2/patches.json",
+      "browser_download_url": "https://github.com/inotia00/revanced-patches/releases/download/v4.15.1/patches.json",
       "content_type": "application/json",
       "label": "patches_json",
       "name": "patches.json",
       "repository": "inotia00/revanced-patches",
-      "size": "51995",
-      "timestamp": "2024-10-12T17:34:02Z",
-      "version": "v4.14.2"
+      "size": "53282",
+      "timestamp": "2024-10-21T11:31:26Z",
+      "version": "v4.15.1"
     }
   ]
 }
